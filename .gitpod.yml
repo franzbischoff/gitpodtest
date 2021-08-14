@@ -19,11 +19,12 @@ vscode:
     - foxundermoon.shell-format
     - alefragnani.bookmarks
     - ms-python.python
+    - donjayamanne.githistory
+    - eamodio.gitlens
+    - ziyasal.vscode-open-in-github
 
 workspaceLocation: /workspaces
+checkoutLocation: false.alarm
 
-tasks:
-  - name: Setup for gitpod
-    init: usermod -aG sudo,docker gitpod && cp -R /home/docker /home/gitpod && chown -R gitpod:gitpod /home/gitpod
-
-image: franzbischoff/false.alarm:latest
+image:
+  file: .gitpod.Dockerfile
