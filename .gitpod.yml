@@ -19,13 +19,7 @@ vscode:
     - foxundermoon.shell-format
     - alefragnani.bookmarks
     - ms-python.python
-  
-workspaceLocation: /workspaces
 
-tasks:
-  - env:
-      WORKSPACE_DIRECTORY: /workspaces
-      NOT_CRAN: true
-      DEBUGME: R_GlobalEnv
+workspaceLocation: /workspaces
 
 image: franzbischoff/false.alarm:latest
