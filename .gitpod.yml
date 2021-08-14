@@ -28,5 +28,4 @@ tasks:
       NOT_CRAN: true
       DEBUGME: R_GlobalEnv
 
-image:
-  file: franzbischoff/false.alarm:latest
+image: franzbischoff/false.alarm:latest
