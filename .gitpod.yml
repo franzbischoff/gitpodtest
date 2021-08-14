@@ -1,0 +1,32 @@
+vscode:
+  extensions:
+    - streetsidesoftware.code-spell-checker
+    - gruntfuggly.todo-tree
+    - ikuyadeu.r
+    - hbenl.vscode-test-explorer
+    - streetsidesoftware.code-spell-checker-portuguese
+    - streetsidesoftware.code-spell-checker-medical-terms
+    - cschleiden.vscode-github-actions
+    - editorconfig.editorconfig
+    - donjayamanne.git-extension-pack
+    - codezombiech.gitignore
+    - james-yu.latex-workshop
+    - richie5um2.vscode-sort-json
+    - redhat.vscode-yaml
+    - christian-kohler.path-intellisense
+    - pkief.material-icon-theme
+    - esbenp.prettier-vscode
+    - foxundermoon.shell-format
+    - alefragnani.bookmarks
+    - ms-python.python
+  
+workspaceLocation: /workspaces
+
+tasks:
+  - env:
+      WORKSPACE_DIRECTORY: /workspaces
+      NOT_CRAN: true
+      DEBUGME: R_GlobalEnv
+
+image:
+  file: franzbischoff/false.alarm:latest
