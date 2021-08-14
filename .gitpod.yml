@@ -22,4 +22,8 @@ vscode:
 
 workspaceLocation: /workspaces
 
+tasks:
+  - name: Setup for gitpod
+    init: usermod -aG sudo,docker gitpod && cp -R /home/docker /home/gitpod && chown -R gitpod:gitpod /home/gitpod
+
 image: franzbischoff/false.alarm:latest
