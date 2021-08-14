@@ -26,5 +26,8 @@ vscode:
 workspaceLocation: /workspaces
 checkoutLocation: false.alarm
 
-image:
-  file: .gitpod.Dockerfile
+image: franzbischoff/false.alarm:latest
+
+tasks:
+  - name: Setup
+    init: cp -R /home/docker /home/gitpod && chown -R gitpod:gitpod /home/gitpod
