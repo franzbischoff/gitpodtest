@@ -22,9 +22,8 @@ vscode:
     - donjayamanne.githistory
     - eamodio.gitlens
     - ziyasal.vscode-open-in-github
-    - https://www.dropbox.com/s/raw/2jlt5zlx70bj1yh/meakbiyik.vscode-r-test-adapter-0.4.1.vsix
-    - https://www.dropbox.com/s/raw/2zrakl493ncy9ss/natqe.reload-0.0.6.vsix
-
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/gabrielgrinberg/vsextensions/auto-run-command/1.6.0/vspackage
+    
 image: franzbischoff/false.alarm:latest
 
 tasks:
