@@ -23,11 +23,8 @@ vscode:
     - eamodio.gitlens
     - ziyasal.vscode-open-in-github
 
-workspaceLocation: /workspaces
-checkoutLocation: false.alarm
-
 image: franzbischoff/false.alarm:latest
 
 tasks:
   - name: Setup
-    init: cp -R /home/docker /home/gitpod && chown -R gitpod:gitpod /home/gitpod
+    init: cp -R /home/docker/* /home/gitpod && chown -R gitpod:gitpod /home/gitpod
